@@ -1,0 +1,14 @@
+.content{
+    text-align: center;
+}
+
+table{
+    width: 600px;
+    margin: 20px auto 5px;
+    border-collapse: collapse;
+}
+
+.Button{
+    text-align: center;
+    margin: 10px 0 0 0;
+}
