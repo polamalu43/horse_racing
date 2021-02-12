@@ -10,21 +10,32 @@
     <div class="content">
         <div class="table_ctn">
             <table border="1">
-                <tr>
-                    <th>馬１</th>
-                    <th>馬２</th>
-                    <th>馬３</th>
-                    <th>馬４</th>
-                    <th>馬５</th>
-                    <th>馬６</th>
+                <tr class="name">
+                    <th>馬名</th>
+                    <td>馬１</td>
+                    <td>馬２</td>
+                    <td>馬３</td>
+                    <td>馬４</td>
+                    <td>馬５</td>
+                    <td>馬６</td>
                 </tr>
                 <tr>
-                    <td id="result1">-</td>
-                    <td id="result2">-</td>
-                    <td id="result3">-</td>
-                    <td id="result4">-</td>
-                    <td id="result5">-</td>
-                    <td id="result6">-</td>
+                    <th>タイム</th>
+                    <td class="time" id="result0">-</td>
+                    <td class="time" id="result1">-</td>
+                    <td class="time" id="result2">-</td>
+                    <td class="time" id="result3">-</td>
+                    <td class="time" id="result4">-</td>
+                    <td class="time" id="result5">-</td>
+                </tr>
+                <tr class="std">
+                    <th>順位</th>
+                    <td class="standing" id="dspStd0">-</td>
+                    <td class="standing" id="dspStd1">-</td>
+                    <td class="standing" id="dspStd2">-</td>
+                    <td class="standing" id="dspStd3">-</td>
+                    <td class="standing" id="dspStd4">-</td>
+                    <td class="standing" id="dspStd5">-</td>
                 </tr>    
             </table>
         </div>
@@ -39,7 +50,11 @@
         </div>
 
     </div>
-    
-    <script type="text/javascript" src="script/main.js"></script>
+    <script type="text/javascript" src="scripts/vendor/frame.js"></script>
+    <script type="text/javascript" src="scripts/vendor/player.js"></script>
+    <script type="text/javascript" src="scripts/vendor/measure.js"></script>
+    <script type="text/javascript" src="scripts/vendor/motor.js"></script>
+    <script type="text/javascript" src="scripts/vendor/standing.js"></script>    
+    <script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>

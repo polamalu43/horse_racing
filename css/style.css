@@ -6,9 +6,18 @@ table{
     width: 600px;
     margin: 20px auto 5px;
     border-collapse: collapse;
+    font-size: 12px;
 }
 
 .Button{
     text-align: center;
     margin: 10px 0 0 0;
+}
+
+.time{
+    width: 85px;
+}
+
+.standing{
+    width: 85px;
 }
