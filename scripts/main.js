@@ -15,6 +15,8 @@ strat.addEventListener("click", function(){
 function loop() {
     //枠の描画
     frame.fill();
+    frame.startLine();
+    frame.goalLine();
 
     //馬の速さを調整
     motor.horse1();    

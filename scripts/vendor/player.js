@@ -22,11 +22,11 @@ var player = new function() {
     this.img6.src = "images/horse2.png";
 
     this.draw = function(){
-        ctx.drawImage(player.img1, player.x[0], player.y[0], 40, 40);  
-        ctx.drawImage(player.img2, player.x[1], player.y[1], 35, 35);
-        ctx.drawImage(player.img3, player.x[2], player.y[2], 40, 40);  
-        ctx.drawImage(player.img4, player.x[3], player.y[3], 35, 35);
-        ctx.drawImage(player.img5, player.x[4], player.y[4], 40, 40);  
-        ctx.drawImage(player.img6, player.x[5], player.y[5], 35, 35);
+        ctx.drawImage(player.img1, player.x[0], player.y[0], 45, 40);  
+        ctx.drawImage(player.img2, player.x[1], player.y[1], 45, 40);
+        ctx.drawImage(player.img3, player.x[2], player.y[2], 45, 40);  
+        ctx.drawImage(player.img4, player.x[3], player.y[3], 45, 40);
+        ctx.drawImage(player.img5, player.x[4], player.y[4], 45, 40);  
+        ctx.drawImage(player.img6, player.x[5], player.y[5], 45, 40);
     };    
 };
